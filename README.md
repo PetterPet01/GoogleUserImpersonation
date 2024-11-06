@@ -2,7 +2,7 @@
 A program with custom-made libraries and dedicated code base to automate the exploitation of Google SSO and steal full-access authentication keys. My best attempt at finding a Remote User Impersonation exploit in Google SSO. Finished on 6/2022.
 
 # How it works
-Briefly speaking, the exploit follows these main steps:
+Briefly speaking, the crust of this exploit is an open redirect vulnerability, followed by a lax Google SSO login process, and is explained by these main steps:
 1. Program sends a malicious iOS *authadvice* request with a custom authentication callback URL schema
 2. Program retrieves the login URL from the response, and proceeds to automate the login process with a dummy but working Google Account:
 * Program loads the login URL onto a customized built-in Chromium browser, which modifies the requests and responses on the fly as programmed, the code of which is custom-made.
