@@ -13,4 +13,4 @@ Briefly speaking, the exploit follows these main steps:
 6. As a bonus, the program supports the extension of the lifetime of authentication keys, effectively granting lifetime access.
 
 # Credits
-PetterPet
+PetterPet (Ho Minh Quan)
