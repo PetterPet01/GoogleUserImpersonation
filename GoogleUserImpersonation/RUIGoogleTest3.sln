@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32510.428
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RUIGoogleTest3", "RUIGoogleTest3\RUIGoogleTest3.csproj", "{2E07F635-F6D5-450C-B83E-15F6078F29F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E07F635-F6D5-450C-B83E-15F6078F29F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E07F635-F6D5-450C-B83E-15F6078F29F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E07F635-F6D5-450C-B83E-15F6078F29F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E07F635-F6D5-450C-B83E-15F6078F29F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {808F4BA5-03CF-437D-9A2D-AEB3AE70E4DA}
+	EndGlobalSection
+EndGlobal
