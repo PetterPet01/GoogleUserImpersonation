@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -67,8 +67,8 @@ namespace RUIGoogleTest3
             Debug.WriteLine(CreateAuthAdviceContent(aaInfo));
 
             GoogleAccountInfo gaInfo;
-            gaInfo.username = "minecraftquan01@gmail.com";
-            gaInfo.password = "quantretrau01";
+            gaInfo.username = "dummy@gmail.com";
+            gaInfo.password = "dummy";
 
             nego = await OAuth2Negotiator.Create(aaInfo, gaInfo/*, chromiumWebBrowser1*/);
             //nego.Login("", "");
